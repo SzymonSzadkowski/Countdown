@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+    width: 90vw;
+    height: 50vh;
+    margin: 10px auto;
+}
+
+.image{
+    width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 5px white;
+}
+
+.text-box{
+    margin: 15px auto;
+}
+
+.text-box--header h3{
+    text-transform: uppercase;
+    color: darkslategray;
+    text-shadow: 1px 1px  5px white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.giveaway-info{
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 0.8em;
+}
+
+.description{
+    margin: 20px 0;
+    font-size: 0.9em;
+    color: grey;
+    text-shadow: 0 0 1px 1px white;
+}
+
+.text-box--timer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 320px;
+}
+
+.time{
+    width: 60px;
+    height: 60px;
+    background-color: darkslategray;
+    box-shadow: 0 0 5px white;
+    color: white;
+    display: grid;
+    place-items: center;
+    text-transform: uppercase;
+
+}
+
+.time h4{
+    font-size: 1.6em;
+}
+
+.time span{
+    font-size: 0.9em;
+    font-weight: 100;
+}
+
+@media (min-width: 768px){
+    .container{
+        width: 600px;
+    }
+}
